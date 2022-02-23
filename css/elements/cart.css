@@ -1,0 +1,133 @@
+.cart__contents {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #828282;
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.cart__ordering {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 58px;
+    margin-bottom: 32px;
+}
+
+.cart__goods {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.cart__item {
+    margin-right: 40px;
+}
+
+.cart__quantity {
+    margin-left: 631px;
+    margin-right: 295px;
+}
+
+.ms-100 {
+    margin-left: 182px;
+}
+
+.cart__item-quantity {
+    background-color: #ffffff;
+    width: 136px;
+    height: 56px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.cart__item-quantity-minus:before {
+    display: block;
+    content: '';
+    width: 14px;
+    height: 2px;
+    background-color: #BDBDBD;
+}
+
+.cart__item-quantity-minus {
+    cursor: pointer;
+    padding: 16px;
+}
+
+.cart__item-quantity-plus {
+    cursor: pointer;
+    padding: 16px;
+}
+
+.cart__item-price {
+    margin-left: 205px;
+}
+
+.cart__item-price--title {
+    position: absolute;
+    right: 80px;
+}
+
+.cart__total {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+
+.cart__item-name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 12px;
+}
+
+.cart__item-remove {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #262F56;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.cart__item-remove img {
+    margin-right: 10px;
+}
+
+/*  */
+
+.cart__checkout {
+    justify-content: space-between;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 56px 30px 56px;
+}
+
+.cart__checkout-total {
+    display: flex;
+    flex-direction: row;
+}
+
+.cart__checkout-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart__checkout-right {
+    max-width: 583px;
+    /*margin-left: 131px;*/
+}

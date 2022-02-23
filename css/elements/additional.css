@@ -1,0 +1,112 @@
+.catalogue__item--sale {
+    position: relative;
+}
+
+.catalogue__item--sale::before {
+    content: 'sale';
+    z-index: 1;
+    position: absolute;
+    background-color: #EB5757;
+    color: #FFFFFF;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.catalogue__item--new {
+    position: relative;
+}
+
+.catalogue__item--new::before {
+    z-index: 1;
+    content: 'new';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: #2C9A7A;
+    color: #FFFFFF;
+    width: 48px;
+    height: 48px;
+    text-transform: uppercase;
+    top: 8px;
+    right: 8px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.catalogue__item--basket {
+    position: relative;
+}
+
+.catalogue__item--basket::before {
+    content: '2';
+    z-index: 1;
+    position: absolute;
+    background-color: #2C9A7A;
+    color: #FFFFFF;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    bottom: -8px;
+    right: -12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.catalogue__price--discount {
+    position: relative;
+    font-size: 14px;
+    color: #828282;
+    left: 23px;
+}
+
+.catalogue__price--discount::before {
+    content: '';
+    position: absolute;
+    background-color: tomato;
+    transform: rotate(-10deg);
+    width: 56.14px;
+    height: 4px;
+    opacity: 0.5;
+    top: 50%;
+    left: 0;
+}
+
+.catalogue__price--new {
+    color: #EB5757;
+}
+
+.product__price--discount {
+    position: relative;
+    font-size: 16px;
+    color: #828282;
+    left: 33px;
+}
+
+.product__price--discount::before {
+    content: '';
+    position: absolute;
+    background-color: #EB5757;;
+    transform: rotate(-6deg);
+    width: 88px;
+    height: 4px;
+    opacity: 0.5;
+    border-radius: 1px;
+    top: 50%;
+    left: -7px;
+}
+
+.product__price--new {
+    color: #EB5757;
+}

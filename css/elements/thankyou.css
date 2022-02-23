@@ -1,0 +1,20 @@
+.thankyou {
+    padding: 122px 368px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.thankyou__link {
+    text-decoration: none;
+    color: #262F56;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.thankyou__logo {
+    height: 48px;
+    width: 48px;
+ }
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>The Desk</title>
+</head>
+<body>
+<header class="header container">
+    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+    <nav class="menu">
+        <a href="#">Каталог</a>
+        <a href="#">Команда</a>
+        <a href="#">О нас</a>
+    </nav>
+    <a href="#" class="catalogue__item--basket"><img src="images/bag.png" alt="basket"></a>
+</header>
+<main>
+    <div class="container">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+            <li class="breadcrumb-item"><a href="index.html">Каталог</a></li>
+            <li class="breadcrumb-item"><a href="index.html">Диван Develius</a></li>
+            <li class="breadcrumb-item active">Оформление заказа</li>
+        </ul>
+    </div>
+    <h1 class="container cart__ordering">Оформление заказа</h1>
+    <section class="container">
+        <h2 class="cart__goods">Мои товары</h2>
+        <div class="cart__contents">
+            <p>Товар</p>
+            <p class="cart__quantity">Количество</p>
+            <p class="cart__item-price--title">Стоимость</p>
+        </div>
+        <hr>
+        <div class="cart">
+            <img class="cart__item" src="images/cart/1.png">
+            <div>
+                <p class="cart__item-name">Стул Fly</p>
+                <span class="cart__item-remove"><img src="images/cart/bucket.png">Убрать из моей корзины</span>
+            </div>
+            <div class="cart__item-quantity ms-100">
+                <span class="cart__item-quantity-minus"></span>
+                <span>1</span>
+                <span class="cart__item-quantity-plus"><img src="images/cart/plus.svg"></span>
+            </div>
+            <div class="cart__item-price product__price product__price--new">
+                196 599 ₽
+                <span class="product__price--discount">256 000 ₽</span>
+            </div>
+        </div>
+        <hr>
+        <div class="cart">
+            <img class="cart__item" src="images/cart/1.png">
+            <div>
+                <p class="cart__item-name">Стул Fly</p>
+                <span class="cart__item-remove"><img src="images/cart/bucket.png">Убрать из моей корзины</span>
+            </div>
+            <div class="cart__item-quantity ms-100">
+                <span class="cart__item-quantity-minus"></span>
+                <span>1</span>
+                <span class="cart__item-quantity-plus"><img src="images/cart/plus.svg"></span>
+            </div>
+            <div class="cart__item-price product__price product__price--new">
+                196 599 ₽
+                <span class="product__price--discount">256 000 ₽</span>
+            </div>
+        </div>
+        <hr>
+        <h2 class="cart__total">Итого: 141 800 ₽</h2>
+    </section>
+    <section class="container">
+        <h2 class="cart__goods">Адрес доставки</h2>
+        <div style="position:relative;overflow:hidden;margin-top:24px;margin-bottom:64px;"><a
+                href="https://yandex.ru/maps/43/kazan/?utm_medium=mapframe&utm_source=maps"
+                style="color:#eee;font-size:12px;position:absolute;top:0px;">Казань</a><a
+                href="https://yandex.ru/maps/43/kazan/?from=api-maps&ll=49.264244%2C55.798307&origin=jsapi_2_1_79&utm_medium=mapframe&utm_source=maps&z=12"
+                style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс.Карты — транспорт, навигация, поиск
+            мест</a>
+            <iframe src="https://yandex.ru/map-widget/v1/-/CCUy7PxIhB" width="100%" height="450" frameborder="1"
+                    allowfullscreen="true" style="position:relative;"></iframe>
+        </div>
+    </section>
+    <section class="container mb-15">
+        <div class="cart__checkout">
+            <div class="cart__checkout-left">
+                <p class="text__title">Всего</p>
+                <p class="text__subtitle mb-2">Товаров</p>
+                <p class="text__subtitle mb-2">Скидка</p>
+                <p class="text__subtitle">Доставка</p>
+            </div>
+            <div class="cart__checkout-left align-end">
+                <p class="text__title">141 800 ₽</p>
+                <p class="text__subtitle mb-2">201 210 ₽</p>
+                <p class="text__subtitle text-red mb-2">–59 410 ₽</p>
+                <p class="text__subtitle">Бесплатно</p>
+            </div>
+            <div class="cart__checkout-right">
+                <button class="product__button mb-3">Перейти к оплате</button>
+                <p class="text-gray mb-1">Нажимая на кнопку «Перейти к оплате», вы соглашаетесь с политикой обработки
+                    персональных данных. Услугу оплаты предоставляет сервис онлайн-платежей «Альфа банк».</p>
+                <p class="text-gray">Мы свяжемся с вами для подтверждения заказа по указанному телефону или электронной
+                    почте в ближайшее время (с 9.00 до 18.00 в рабочие дни).</p>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container footer_container">
+        <div class="footer__left">
+            <div class="footer__left-subscribe_text">Подписаться на новости</div>
+            <form class="footer__submit_form mb-7">
+                <div class="footer__submit_form-submit_input_container"><img class="footer__submit_form-submit-image"
+                                                                             src="images/Vector.svg" alt="1"><input
+                        class="footer__submit_form-submit_input" type="text" placeholder="Электронная почта" value="">
+                </div>
+                <input class="footer__submit_form-submit_button" type="submit" value="Подписаться">
+            </form>
+            <p class="footer__left-copyrighttext mb-1">Все права защищены. При использовании материалов, размещённых на
+                сайте, ссылка на источник обязательна.</p>
+            <p class="footer__left-copyrighttext">© 2020 The Desk</p>
+        </div>
+        <div class="footer__right">
+            <nav class="menu">
+                <a href="catalog.html">Каталог</a>
+                <a href="#">О нас</a>
+                <a href="#">Команда</a>
+                <a href="#">Вакансии</a>
+            </nav>
+            <div class="social">
+                <a href="" class="me-4"><img src="images/facebook.png" alt="facebook"></a>
+                <a href=""><img src="images/instagram.png" alt="instagram"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

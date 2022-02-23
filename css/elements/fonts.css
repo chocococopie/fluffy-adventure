@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Euclid Square';
+    src: url('../../fonts/EuclidSquare-Regular.eot');
+    src: local('Euclid Square Regular'), local('EuclidSquare-Regular'),
+        url('../../fonts/EuclidSquare-Regular.eot') format('embedded-opentype'),
+        url('../../fonts/EuclidSquare-Regular.woff2') format('woff2'),
+        url('../../fonts/EuclidSquare-Regular.woff') format('woff'),
+        url('../../fonts/EuclidSquare-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}

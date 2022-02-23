@@ -1,0 +1,13 @@
+@import './elements/header.css';
+@import './elements/footer.css';
+@import './elements/catalogue.css';
+@import './elements/body.css';
+@import 'elements/cart.css';
+@import './elements/fonts.css';
+@import './elements/text.css';
+@import './elements/additional.css';
+@import './elements/product.css';
+@import 'elements/goods.css';
+@import 'elements/breadcrumb.css';
+@import 'elements/common.css';
+@import 'elements/thankyou.css';
